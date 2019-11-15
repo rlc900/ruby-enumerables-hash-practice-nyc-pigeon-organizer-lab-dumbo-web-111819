@@ -1,10 +1,10 @@
 def nyc_pigeon_organizer(data)
   new_pigeon_data = {}
   
-  female_pigeons = data[:female]
+  female_pigeons = data[:gender][:female]
   female_pigeon_data = {}
   
-  male_pigeons = data[:male]
+  male_pigeons = data[:gender][:male]
   male_pigeon_data = {} 
   
   female_pigeons.each do |name|
