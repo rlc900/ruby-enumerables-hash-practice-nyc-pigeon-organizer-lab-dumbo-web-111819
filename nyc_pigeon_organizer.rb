@@ -10,7 +10,9 @@ def nyc_pigeon_organizer(data)
   female_pigeon_data.each |name| do 
     male_pigeon_data[name] = { color: [], gender: ["female"], lives: [] }
     
-    male_pigeon_data.each |name| do 
+   male_pigeon_data.each |name| do 
+      female_pigeon_data[name] = { color: [], gender: ["male"], lives: [] }
+      
       
     end 
   end 
