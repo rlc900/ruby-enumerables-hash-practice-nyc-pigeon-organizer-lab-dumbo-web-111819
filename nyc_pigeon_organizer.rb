@@ -7,5 +7,5 @@ def nyc_pigeon_organizer(data)
   male_pigeons = data[:male]
   male_pigeon_data = {} 
   
-  new_pigeon_data = male_pigeon_data.merge
+  new_pigeon_data = male_pigeon_data.merge(female_pigeon_data)
 end
