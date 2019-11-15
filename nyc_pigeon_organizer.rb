@@ -16,5 +16,6 @@ def nyc_pigeon_organizer(data)
     
     new_pigeon_data = male_pigeon_data.merge(female_pigeon_data)
     
-    color_
+    pigeons_colors = data[:color]
+    
 end
